@@ -1,12 +1,9 @@
 import cartIcon from "/images/icon-cart.svg";
-// import perfumeImg from "/images/image-product-desktop.jpg";
 
 const Card = () => {
   return (
     <section className="m-4 rounded-xl overflow-hidden xsm:flex xsm:max-w-[600px]">
-      <div className="h-60 xsm:h-full  bg-cover bg-[url('/images/image-product-mobile.jpg')] xsm:bg-[url('/images/image-product-desktop.jpg')] xsm:basis-6/12">
-        {/* <img src={perfumeImg} alt="Perfume" /> */}
-      </div>
+      <div className="h-60 xsm:h-full  bg-cover bg-[url('/images/image-product-mobile.jpg')] xsm:bg-[url('/images/image-product-desktop.jpg')] xsm:basis-6/12"></div>
       <div className="bg-white p-5 xsm:p-8 xsm:basis-6/12 ">
         <p className="uppercase tracking-[0.3em] text-xs">Perfume</p>
         <h1 className="font-fraunces text-very-dark-blue text-bold leading-8 text-[2rem]">
