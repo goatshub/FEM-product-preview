@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        xsm: "450px",
+        xsm: "500px",
       },
       colors: {
         "dark-cyan": "hsl(158, 36%, 37%)",
